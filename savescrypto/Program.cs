@@ -7,6 +7,9 @@ namespace savescrypto
     {
         static void Main(string[] args)
         {
+            if (args.Length == 0)
+                return;
+
             string path = args[0];
 
             if (path == "")
